@@ -1,0 +1,10 @@
+﻿streamlit>=1.50
+pandas
+numpy
+plotly
+scikit-learn
+joblib
+google-genai
+openpyxl
+requests
+pytest>=8

@@ -1,0 +1,67 @@
+{
+  "model_name": "RandomForestClassifier",
+  "classes": [
+    "Data Scientist",
+    "Digital Marketer",
+    "Financial Analyst",
+    "Government Officer",
+    "Healthcare Professional",
+    "Product Manager",
+    "Researcher/Academician",
+    "Software Engineer",
+    "UI/UX Designer"
+  ],
+  "metrics": {
+    "accuracy": 0.489,
+    "top_3_accuracy": 0.855,
+    "macro_f1": 0.4949010617270737,
+    "majority_class_baseline": 0.194,
+    "majority_class": "Software Engineer"
+  },
+  "per_class_recall": {
+    "Data Scientist": 0.20394736842105263,
+    "Digital Marketer": 0.35789473684210527,
+    "Financial Analyst": 0.5495495495495496,
+    "Government Officer": 0.7789473684210526,
+    "Healthcare Professional": 0.7159090909090909,
+    "Product Manager": 0.41836734693877553,
+    "Researcher/Academician": 0.6101694915254238,
+    "Software Engineer": 0.36082474226804123,
+    "UI/UX Designer": 0.7314814814814815
+  },
+  "cgpa_fit": {
+    "slope": 9.640100893534886,
+    "intercept": 2.512254736151286
+  },
+  "supports_proba": true,
+  "data_note": "Training data is synthetic; metrics describe this synthetic dataset only.",
+  "feature_columns": [
+    "Age",
+    "Academic_Score",
+    "Programming_Skill_1_10",
+    "Communication_Skill_1_10",
+    "Analytical_Skill_1_10",
+    "Creative_Design_Skill_1_10",
+    "Gender",
+    "Region",
+    "City_Tier",
+    "Stream_12th",
+    "Current_Degree",
+    "Primary_Interest",
+    "Influencing_Factor"
+  ],
+  "cv_macro_f1": {
+    "LogisticRegression": {
+      "mean": 0.48780789606380803,
+      "std": 0.0071453538069747875
+    },
+    "RandomForestClassifier": {
+      "mean": 0.49638119938878605,
+      "std": 0.009262946291136965
+    },
+    "HistGradientBoostingClassifier": {
+      "mean": 0.47392778030474203,
+      "std": 0.01795060451701657
+    }
+  }
+}
